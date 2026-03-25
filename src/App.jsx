@@ -172,11 +172,11 @@ export default function App() {
           padding: "24px 0", borderBottom: `1px solid ${DIM}`, marginBottom: 0
         }}>
           <span style={{ fontFamily: "monospace", color: GREEN, fontWeight: "bold", fontSize: 15 }}>
-            ~/yo980328
+            ~/youness-oujdid
           </span>
           <div style={{ display: "flex", gap: 24 }}>
             {[
-              { label: "github", href: "https://github.com/yo980328" },
+              { label: "github", href: "https://github.com/youness-oujdid" },
               { label: "tool", onClick: scrollToTool },
             ].map(({ label, href, onClick }) => (
               <a key={label} href={href} onClick={onClick}
@@ -240,7 +240,7 @@ export default function App() {
               <span style={{ width: 11, height: 11, borderRadius: "50%", background: "#ff5555" }} />
               <span style={{ width: 11, height: 11, borderRadius: "50%", background: YELLOW }} />
               <span style={{ width: 11, height: 11, borderRadius: "50%", background: GREEN }} />
-              <span style={{ color: GRAY, fontSize: 11, marginLeft: "auto", fontFamily: "monospace" }}>zsh — yo980328@dev</span>
+              <span style={{ color: GRAY, fontSize: 11, marginLeft: "auto", fontFamily: "monospace" }}>zsh — youness-oujdid@dev</span>
             </div>
             <div style={{ padding: "20px 24px" }}>
               <Typewriter lines={bootLines} />
@@ -261,7 +261,7 @@ export default function App() {
             >
               $ launch tool ❯
             </button>
-            <a href="https://github.com/yo980328" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/youness-oujdid" target="_blank" rel="noopener noreferrer"
               style={{
                 background: "transparent", color: CYAN,
                 border: `1px solid ${DIM}`, borderRadius: 6,
@@ -367,9 +367,9 @@ export default function App() {
           flexWrap: "wrap", gap: 12
         }}>
           <span style={{ fontFamily: "monospace", fontSize: 12, color: GRAY }}>
-            © 2025 yo980328 — built with React + Vite + ☁ GitHub Pages
+            © 2025 youness-oujdid — built with React + Vite + ☁ GitHub Pages
           </span>
-          <a href="https://github.com/yo980328/ps1-preview" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/youness-oujdid/ps1-preview" target="_blank" rel="noopener noreferrer"
             style={{ fontFamily: "monospace", fontSize: 12, color: GRAY, textDecoration: "none" }}
             onMouseEnter={e => e.target.style.color = GREEN}
             onMouseLeave={e => e.target.style.color = GRAY}
